@@ -1,0 +1,45 @@
+/* Smart Phones And Tablets */
+@media (max-width: 767px)
+{
+    .header .navbar-nav { float: none; background-color: #fff; }
+    
+	.header.shrink .navbar-nav li a,
+	.header .navbar-nav li a { padding: 10px 10px; color: #222; }
+	
+	.sidebar-menu .navbar-collapse{box-shadow: none;}
+    
+    .sidebar-menu .collapse{display: block;}
+    
+	.home .overlay .title h1,
+	.home-part .title h1,
+	.video-container .overlay .title h1{font-size: 45px;}
+
+    .home .overlay .title h1 span,
+	.home-part .title h1 span,
+	.video-container .overlay .title h1 span{font-size: 30px;}
+	
+    .typed{font-size: 30px;} 
+     
+}
+
+/* Small Screen */
+@media (min-width: 768px) and (max-width: 991px)
+{
+    .header.shrink .navbar-nav li a{padding: 20px 15px}
+    
+	.header .navbar-nav li a {padding: 30px 15px; }
+   
+}
+
+/* Medium Screen */
+@media (min-width:992px) and (max-width: 1199px)
+{ 
+   
+    
+
+}
+
+/* Large Screen */
+@media (min-width:1200px)
+{
+}
