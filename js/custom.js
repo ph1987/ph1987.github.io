@@ -103,7 +103,7 @@ $(document).on('ready', function () {
     });
     
     $('.element').typed({
-        strings: [ " Full stack developer",  "  I like HTML, CSS, JS, PHP, C#"],
+        strings: [ " Full stack developer",  "  I like C#, PHP, Python, HTML, CSS, JS"],
         loop: true,
         showCursor: true,
         startDelay: 1000,
